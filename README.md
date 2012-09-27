@@ -1,4 +1,4 @@
-landing
-=======
+Landing Page
+=============
 
-Landing page pre alpha 
+Landing page pre alpha to get users to subscribe for when we send invites.
