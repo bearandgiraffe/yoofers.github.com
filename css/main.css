@@ -93,17 +93,129 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@font-face {
+    font-family: 'futuramc';
+    src: url('../fonts/futuramc-webfont.eot');
+    src: url('../fonts/futuramc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futuramc-webfont.woff') format('woff'),
+         url('../fonts/futuramc-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+body {
+    background: url('../img/bg.png') repeat;
+    font-family: arial;
+    font-size: 16px;
+    color: #7c7c7c;
+}
 
+#wrapper {
+    width: 680px;
+    margin: 0 auto;
+}
 
+#logo {
+    background: url('../img/logo.png') no-repeat;
+    height: 256px;
+    width: 495px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: -22px;
+}
 
+hr {
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #ffffff;
+    height: 0px;
+    width: 680px;
+    margin: 20px auto;
+}
 
+#subscribe {
+    width: 389px;
+    margin: 0 auto;
+    text-align: center;
+}
 
+#subscribe h2,
+#video h2 {
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #92278f;
+    font-family: 'futuramc';
+    margin-bottom: 10px;
+}
 
+#video h2 {
+    color: #fdb813;
+    margin-top: 10px;
+    float: left;
+}
 
+#subscribe form {
+    width: 385px;
+    background-color: #e2e2e2;
+    height: 34px;
+    padding: 2px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
 
+#subscribe .email {
+    padding: 5px 11px;
+    -webkit-border-radius: 3px 0 0  3px;
+    border-radius: 3px 0 0  3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    height: 22px;
+    width: 279px;
+    font-size: 14px;
+    border: 1px solid #BEBEBE;
+}
 
+#subscribe .button {
+    background: #92288f; /* Old browsers */
+    background: -moz-linear-gradient(top,  #92288f 35%, #761a74 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(35%,#92288f), color-stop(100%,#761a74)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #92288f 35%,#761a74 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #92288f 35%,#761a74 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #92288f 35%,#761a74 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #92288f 35%,#761a74 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#92288f', endColorstr='#761a74',GradientType=0 ); /* IE6-9 */
+    margin-left: -4px;
+    height: 34px;
+    font-size: 14px;
+    width: 80px;
+    border: 1px solid #4E2D4E;
+    -webkit-border-radius: 0 3px 3px 0; border-radius: 0 3px 3px 0; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+    color: white;
+}
 
+#subscribe .button:hover { background: #92288F; }
+
+#video {
+    width: 470px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.video-thumbnail {
+    background: url('../img/sprite.png') no-repeat;
+    background-position: -112px -10px;
+    width: 145px;
+    height: 80px;
+    float: left;
+}
+
+#video p {
+    float: left;
+    margin: -15px 0;
+}
 
 
 
