@@ -288,6 +288,12 @@ hr {
     background-position-x: -350px;
 }
 
+#contact em.twitter:hover,
+#contact em.facebook:hover,
+#contact em.gplus:hover {
+    background-position-y: -33px;
+}
+
 
 /* ==========================================================================
    Helper classes
