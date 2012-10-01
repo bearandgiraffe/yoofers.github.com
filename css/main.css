@@ -107,6 +107,7 @@ body {
     background: url('../img/bg.png') repeat;
     font-family: arial;
     font-size: 16px;
+    font-weight: normal;
     color: #7c7c7c;
     width: 100%;
     height: 100%;
@@ -158,6 +159,7 @@ hr {
     color: #92278f;
     font-family: 'futuramc';
     margin-bottom: 10px;
+    font-weight: normal;
 }
 
 #video h2 {
@@ -276,22 +278,23 @@ hr {
 
 #contact em.twitter {
     margin-right: 10px;
-    background-position-x: -290px;
+    background-position: -290px -10px;
 }
-
 #contact em.facebook {
     margin-right: 10px;
-    background-position-x: -320px;
+    background-position: -320px -10px;
 }
-
 #contact em.gplus {
-    background-position-x: -350px;
+    background-position: -350px -10px;
 }
-
-#contact em.twitter:hover,
-#contact em.facebook:hover,
+#contact em.twitter:hover {
+    background-position: -290px -32px;
+}
+#contact em.facebook:hover {
+    background-position: -320px -33px;
+}
 #contact em.gplus:hover {
-    background-position-y: -33px;
+    background-position: -350px -33px;
 }
 
 
