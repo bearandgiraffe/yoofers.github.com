@@ -120,6 +120,19 @@ body {
     margin: 0 auto;
 }
 
+.link-to-font {
+    text-align: center;
+}
+
+.link-to-font a {
+    text-decoration: none;
+    color: #FDB813;
+}
+
+.link-to-font a:hover {
+    text-decoration: underline;
+}
+
 
 /* ==========================================================================
    Helper classes
